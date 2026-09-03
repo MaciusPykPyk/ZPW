@@ -1,0 +1,18 @@
+1.Repozytorium (repository)
+Miejsce, w którym przechowywany jest projekt oraz historia jego zmian. Może być lokalne na komputerze albo zdalne.
+2.GitHub / Bitbucket / GitLab
+Serwisy internetowe, na których można przechowywać zdalne repozytoria Git i współpracować nad kodem z innymi osobami.
+3.Git – narzędzie do kontroli wersji
+GitHub, GitLab, Bitbucket platformy korzystające z Gita
+Git
+System kontroli wersji. Pozwala śledzić zmiany w plikach, wracać do wcześniejszych wersji i pracować nad projektem zespołowo.
+4.Commit
+„Zapisanie” określonego zestawu zmian w historii projektu. Każdy commit ma swój identyfikator i zwykle opis, np. Dodano logowanie.
+5.Branch (gałąź)
+Oddzielna linia rozwoju projektu. Możesz np. utworzyć branch nowa-funkcja i pracować na nim bez zmieniania głównej wersji projektu.
+6.Checkout
+Przełączanie się między branchami lub wersjami projektu. Np. możesz przełączyć się z main na nowa-funkcja.
+7.Merge
+Połączenie zmian z jednej gałęzi z inną. Przykładowo możesz połączyć nowa-funkcja z main.
+8.Rebase
+Przeniesienie commitów jednej gałęzi na podstawę innej gałęzi. Pomaga uporządkować historię projektu, ale zmienia historię commitów, więc trzeba używać go ostrożnie.
