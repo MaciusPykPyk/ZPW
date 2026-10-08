@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zdarzenie click</title>
+     <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+
+     <script>
+
+    $(function() {
+    $("#ukryj").click(function () {
+        $("#tekst").hide()
+        
+    })
+    $("#kot").click(function () {
+        $(this).hide(2000);
+    })
+    $("#pokaz").click(function () {
+        $("#sekret").show();
+    })
+   $("#zapisz").click(function () {
+    $("#komunikat").show(1000)
+
+   })
+   $("#przelacz").click(function () {
+    $("#opis").toggle();
+   })
+   $("#pomoc").click(function () {
+    $("#podpowiedz").toggle();
+   })
+    $("#slide").click(function () {
+    $("#slide2").slideToggle(600);
+   })
+    $("#slideup").click(function () {
+    $("#slide2up").slideUp(600);
+   })
+    $("#slidedown").click(function () {
+    $("#slide2down").slideDown(200);
+   })
+})
+  </script>
+   
+  
+</head>
+  <style>
+ 
+    </style>
+</head>
+<body>
+   
+   <p id="tekst">Klikni a znikne</p>
+<img id="kot" src="kot.png" width="200">
+    <button id="ukryj">Ukryj</button>
+    <p id="sekret" style="display: none;">sekret</p>
+    <button id="pokaz">Pokaz</button>
+      <button id="zapisz">zapisz</button>
+      <p id="komunikat" style="display: none;">sekret</p>
+      <p id="opis">Opis prodyuktu</p>
+        <button id="przelacz">przelacz</button>
+        <button id="pomoc">pomoc</button>
+        <p id="podpowiedz">podpowiedz</p>
+         <button id="slide">slide</button>
+        <p id="slide2" style="font-size: 50px;">slide2</p>
+                 <button id="slideup">slide</button>
+        <p id="slide2up" style="font-size: 50px;">slide2</p>
+                 <button id="slidedown">slide</button>
+        <p id="slide2down" style="font-size: 50px; display: none;" >slide2</p>
+</body>
+</html>
